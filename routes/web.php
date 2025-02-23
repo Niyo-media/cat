@@ -41,3 +41,18 @@ Route::get('/hodhome', function () {
 Route::get('/hodhome', function () {
     return view('hodhome');
 });
+Route::get('/department_dashboard', function () {
+    return view('department_dashboard');
+});
+Route::get('/header', function () {
+    return view('header');
+});
+Route::get('/footer', function () {
+    return view('footer');
+});
+Route::get('/student_dashboard', function () {
+    return view('student_dashboard');
+});
+Route::get('/supervisor_dashboard', function () {
+    return view('supervisor_dashboard');
+});

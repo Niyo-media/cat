@@ -30,7 +30,7 @@
         .sidebar {
             width: 250px;
             height: 100vh;
-            background-color: #003366;
+            background-color:rgb(12, 12, 12);
             position: fixed;
             top: 0;
             left: 0;
@@ -60,7 +60,7 @@
         }
 
         .sidebar ul li a:hover {
-            background-color: #0055a5;
+            background-color:rgb(148, 155, 160);
         }
 
         /* Main Content */
@@ -89,12 +89,39 @@
             transform: translateY(-5px);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
+         /* Footer Styling */
+         footer {
+            background-color:rgb(62, 13, 41);
+            color: white;
+            text-align: center;
+            padding: 0px 0;
+            margin-top: 40px;
+        }
+        
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
 
         .dashboard-card h3 {
             font-size: 1.4rem;
             margin-bottom: 15px;
             color: #003366;
         }
+        
 
         .dashboard-card a {
             text-decoration: none;
@@ -110,7 +137,17 @@
         .dashboard-card a:hover {
             background-color: #002244;
         }
+        .header {
+            background-color:rgb(62, 13, 41);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
+        .header h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
         /* Responsive Design */
         @media (max-width: 768px) {
             .sidebar {
@@ -145,9 +182,11 @@
 <body>
 
     <!-- Header -->
+    <!-- Header Section -->
     <div class="header">
-        <h2>Supervisor Dashboard</h2>
+        <h2>Welcome to FYP Portal</h2>
     </div>
+
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -155,7 +194,7 @@
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Assigned Projects</a></li>
             <li><a href="#">Project Approvals</a></li>
-            <li><a href="#">Profile</a></li>
+           
             <li><a href="/">Logout</a></li>
         </ul>
     </div>
@@ -181,14 +220,19 @@
                 <a href="#">Approve Projects</a>
             </div>
 
-            <!-- Profile Card -->
-            <div class="dashboard-card">
-                <i class="fas fa-user"></i>
-                <h3>Profile</h3>
-                <a href="#">Edit Profile</a>
-            </div>
+            
         </div>
     </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 RP FYP | All rights reserved</p>
+        <p>
+            <strong>Contact Us:</strong><br>
+            Email: <a href="mailto:rp@gmail.com">rp@gmail.com</a><br>
+            Website: <a href="https://www.rp.ac.rw" target="_blank">www.rp.ac.rw</a><br>
+            Address: Kicukiro, Rwanda
+        </p>
+    </footer>
 
 </body>
 </html>
