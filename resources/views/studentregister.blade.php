@@ -6,7 +6,7 @@
     <title>Student Registration</title>
     <style>
         /* Basic styles for form */
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color:rgb(187, 178, 184); }
         .container { width: 50%; margin: 50px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
         h2 { text-align: center; margin-bottom: 20px; }
         .form-group { margin-bottom: 15px; }
@@ -44,6 +44,10 @@
             <div class="form-group">
                 <label for="StudentEmail">Email Address</label>
                 <input type="email" id="StudentEmail" name="StudentEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="StudentDepartment">Student Department </label>
+                <input type="text" id="StudentEmail" name="StudentDepartment" required>
             </div>
             <div class="form-group">
                 <label for="StudentPhoneNumber">Phone Number</label>

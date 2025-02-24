@@ -117,7 +117,7 @@
             color: white;
             text-align: center;
             padding: 0px 0;
-            margin-top: 40px;
+            margin-top: 125px;
         }
 
         footer p {
@@ -139,6 +139,7 @@
     </style>
 </head>
 <body>
+<div style="80vh">
 
     <!-- Header Section -->
     <div class="header">
@@ -175,6 +176,9 @@
         
 
     </div>
+    </div>
+    </div>
+    
 
     <!-- Footer Section -->
     <footer>

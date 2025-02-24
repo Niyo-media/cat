@@ -137,14 +137,14 @@
     </style>
 </head>
 <body>
-
+<div style="height: 73vh;">
     <div class="header">
         <h2>Welcome to FYP System </h2>
     </div>
 
     <div class="top-right-container">
         <div class="logo-container">
-            <img src="22RP08068/logo.jpg" alt="Logo">
+            <img src="logo.jpg" alt="Logo">
         </div>
         <div class="logout-container">
             <a href="department_dashboard">Home</a>
@@ -179,6 +179,7 @@
             <a href="create_group">Project Group</a>
             <a href="assign_student_supervisor">Assign</a>
         </div>
+    </div>
     </div>
    <!-- Footer -->
 <footer>

@@ -34,7 +34,7 @@
             position: fixed;
             top: 0;
             left: 0;
-            padding-top: 20px;
+            padding-top: 125px;
             box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -95,7 +95,8 @@
             color: white;
             text-align: center;
             padding: 0px 0;
-            margin-top: 40px;
+            margin-top: 145px;
+            padding-top: 100px;
         }
         
 
